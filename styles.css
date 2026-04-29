@@ -9,6 +9,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(80, 80, 80);
+  background-image: url('img/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: #666666;
   display: flex;
   flex-direction: column;
@@ -19,11 +23,10 @@ header {
   height: 125px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: rgb(255, 255, 255);
+  justify-content: center; 
   padding: 15px 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 header img {
@@ -51,7 +54,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 .card {
@@ -78,8 +81,8 @@ main {
 }
 
 footer {
-  background-color: rgb(255, 255, 255);
-  color: #333;
+  background-color: rgb(78, 78, 78);
+  color: #ffffff;
   text-align: center;
   padding: 20px;
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
